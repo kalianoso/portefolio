@@ -1,1 +1,58 @@
+body{
+    background-color: aliceblue;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+img{
+    height: auto;
+    max-width: 180px;
+}
+h1{
+    text-align: center;
+}
 
+/* Début Header */
+
+header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#presentation{
+    padding: 10px;
+    background-color: rgb(139, 161, 221);
+    display: flex;
+    align-items: center;
+}
+nav{        /* également présent dans le footer */
+    background-color:royalblue;
+    margin: 20px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Fin Header */
+
+/* Début main */
+
+h2, h3{
+    color: rgb(139, 161, 221);
+}
+
+/* Fin main */
+
+/* début footer */
+
+#pied_de_page{
+    background-color: black;
+}
+#pied_de_page p{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+/* Fin footer */
