@@ -1,1 +1,69 @@
+body{
+    background-color: aliceblue;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+img{
+    height: auto;
+    max-width: 180px;
+}
+h1{
+    text-align: center;
+}
 
+/* Début header */
+
+header{
+    padding: 20px;
+    background-color: rgb(139, 161, 221);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Fin header */
+
+/* Début main */
+
+h2{
+    color: rgb(139, 161, 221);
+}
+
+    /* Début tableau */
+
+    table{
+        border: 6px solid rgb(102, 123, 179);
+    }
+    th, .t_pied{
+        background-color: rgb(102, 123, 179);
+        padding: 12px;
+    }
+    .c2, .c3{
+        text-align: center;
+    }
+    .c1, .c3{
+        background-color: rgb(139, 161, 221);   
+    }
+    .c1, .c2, .c3{
+        padding:  4px;
+    }
+    .c2{
+        border-top: 1px black solid;
+    }
+
+    /* Fin tableau */
+
+/* début footer */
+
+#pied_de_page{
+    background-color: black;
+}
+#pied_de_page p{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+/* Fin footer */
